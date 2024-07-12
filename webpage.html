@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Project Management SaaS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+            background-color: white;
+            margin: 1em auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+        }
+        .pricing-plan {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1em;
+            text-align: center;
+            width: 30%;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TaskMaster</h1>
+        <p>Your Ultimate Project Management Solution</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to TaskMaster</h2>
+            <p>TaskMaster is a cutting-edge project management software designed to help teams collaborate, organize, and achieve their goals efficiently. Our intuitive platform is built with usability in mind, ensuring that you can manage your projects with ease and confidence.</p>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Task Scheduling and Management</li>
+                <li>Team Collaboration Tools</li>
+                <li>Project Tracking and Reporting</li>
+                <li>Time Tracking and Timesheets</li>
+                <li>Customizable Workflows</li>
+                <li>Integration with Popular Tools</li>
+                <li>Mobile Access</li>
+            </ul>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-table">
+                <div class="pricing-plan">
+                    <h3>Basic</h3>
+                    <p>$9/month</p>
+                    <ul>
+                        <li>Up to 10 Projects</li>
+                        <li>Basic Collaboration Tools</li>
+                        <li>Email Support</li>
+                    </ul>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Pro</h3>
+                    <p>$29/month</p>
+                    <ul>
+                        <li>Unlimited Projects</li>
+                        <li>Advanced Collaboration Tools</li>
+                        <li>Priority Email Support</li>
+                        <li>Time Tracking</li>
+                    </ul>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Enterprise</h3>
+                    <p>Contact Us</p>
+                    <ul>
+                        <li>Custom Solutions</li>
+                        <li>Dedicated Support</li>
+                        <li>Integration Assistance</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TaskMaster. All rights reserved.</p>
+    </footer>
+</body>
+</html>
